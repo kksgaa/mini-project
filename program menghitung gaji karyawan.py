@@ -27,6 +27,7 @@ def hitung_gaji(jam_kerja, tarif_kerja):
     if jam_kerja > 160:
         bonus = 0.1 * gaji
         total_gaji = gaji + bonus
+        print("Anda mendapatkan bonus")
     else:
         total_gaji = gaji
     return total_gaji
